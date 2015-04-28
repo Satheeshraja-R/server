@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-7"?>
+<manifest>
+    <remote name="ser_1"
+            fetch="/media/freescale/Data2/satheesh/server/ser_1/"
+            review="/media/freescale/Data2/satheesh/server/rev_1/"/>
+    <remote name="ser_2"
+            fetch="/media/freescale/Data2/satheesh/server/ser_2/"
+            review="/media/freescale/Data2/satheesh/server/rev_2/"/>
+    <remote name="ser_3"
+            fetch="/media/freescale/Data2/satheesh/server/ser_3/"
+            review="/media/freescale/Data2/satheesh/server/rev_3/"/>
+    <remote name="ser_4"
+            fetch="/media/freescale/Data2/satheesh/server/ser_4/"
+            review="/media/freescale/Data2/satheesh/server/rev_4/"/>
+    <default revision="refs/heads/master"
+             remote="ser_1"
+             sync-c="true"
+             sync-j="4" />
+         <project path="server1" name="server/ser1" revision="master" remote="ser_1" />
+         <project path="server2" name="server/ser2" revision="master" remote="ser_2" />
+         <project path="server3" name="server/ser3" revision="master" remote="ser_3" />
+         <project path="server4" name="server/ser4" revision="master" remote="ser_4" />
+</manifest>
+~            
