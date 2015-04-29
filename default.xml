@@ -6,7 +6,7 @@
              remote="bare"
              sync-c="true"
              sync-j="2" />
-         <project name="bare1/" revision="master" remote="server" />
+         <project name="bare/" revision="master" remote="server" />
          <project name="bare2/" revision="master" remote="server" />
 </manifest>
 ~            
