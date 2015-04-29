@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-7"?>
 <manifest>
-    <remote name="server"
+    <remote name="bare"
             fetch="https://https://github.com/Satheeshraja-R/"/>
     <default revision="refs/heads/master"
              remote="bare"
              sync-c="true"
              sync-j="2" />
-         <project name="bare/" revision="master" remote="server" />
-         <project name="bare2/" revision="master" remote="server" />
+         <project name="server/" revision="master" remote="bare" />
+         <project name="server/" revision="master" remote="bare" />
 </manifest>
 ~            
